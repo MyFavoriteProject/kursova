@@ -1,6 +1,6 @@
 ﻿namespace oblik
 {
-    partial class Form1
+    partial class Statementofmaterialvalue
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,421 +28,421 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.зберегтиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.друкуватиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            this.menuStrip1.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.statement = new System.Windows.Forms.DataGridView();
+            this.inventory = new System.Windows.Forms.Panel();
+            this.numberlabel = new System.Windows.Forms.NumericUpDown();
+            this.dateofdeparturelabel = new System.Windows.Forms.DateTimePicker();
+            this.dateofreceiptlabel = new System.Windows.Forms.DateTimePicker();
+            this.placeofstoragelabel = new System.Windows.Forms.ComboBox();
+            this.responsibleperson = new System.Windows.Forms.Label();
+            this.person = new System.Windows.Forms.TextBox();
+            this.placeofstorage = new System.Windows.Forms.Label();
+            this.edit = new System.Windows.Forms.Button();
+            this.delete = new System.Windows.Forms.Button();
+            this.add = new System.Windows.Forms.Button();
+            this.open = new System.Windows.Forms.Button();
+            this.suma = new System.Windows.Forms.Label();
+            this.price = new System.Windows.Forms.Label();
+            this.number = new System.Windows.Forms.Label();
+            this.sumalabel = new System.Windows.Forms.TextBox();
+            this.pricelabel = new System.Windows.Forms.TextBox();
+            this.graduationyearlabel = new System.Windows.Forms.TextBox();
+            this.graduationyear = new System.Windows.Forms.Label();
+            this.dateofdeparture = new System.Windows.Forms.Label();
+            this.dateofreceipt = new System.Windows.Forms.Label();
+            this.nameofmaterialvalueslabel = new System.Windows.Forms.TextBox();
+            this.nameofmaterialvalues = new System.Windows.Forms.Label();
+            this.menu = new System.Windows.Forms.MenuStrip();
+            this.filemenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.save = new System.Windows.Forms.ToolStripMenuItem();
+            this.print = new System.Windows.Forms.ToolStripMenuItem();
+            this.searchbynamelabel = new System.Windows.Forms.Panel();
+            this.exit = new System.Windows.Forms.Button();
+            this.search = new System.Windows.Forms.Button();
+            this.name = new System.Windows.Forms.TextBox();
+            this.namelabel = new System.Windows.Forms.Label();
+            this.searchbyname = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.statement)).BeginInit();
+            this.inventory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numberlabel)).BeginInit();
+            this.menu.SuspendLayout();
+            this.searchbynamelabel.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.statement.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 35);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(565, 127);
-            this.dataGridView1.TabIndex = 1;
+            this.statement.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.statement.Location = new System.Drawing.Point(12, 35);
+            this.statement.Name = "dataGridView1";
+            this.statement.Size = new System.Drawing.Size(565, 127);
+            this.statement.TabIndex = 1;
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Controls.Add(this.numericUpDown1);
-            this.panel2.Controls.Add(this.dateTimePicker2);
-            this.panel2.Controls.Add(this.dateTimePicker1);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.textBox9);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.textBox7);
-            this.panel2.Controls.Add(this.textBox6);
-            this.panel2.Controls.Add(this.textBox4);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(583, 35);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(428, 296);
-            this.panel2.TabIndex = 3;
+            this.inventory.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.inventory.Controls.Add(this.numberlabel);
+            this.inventory.Controls.Add(this.dateofdeparturelabel);
+            this.inventory.Controls.Add(this.dateofreceiptlabel);
+            this.inventory.Controls.Add(this.placeofstoragelabel);
+            this.inventory.Controls.Add(this.responsibleperson);
+            this.inventory.Controls.Add(this.person);
+            this.inventory.Controls.Add(this.placeofstorage);
+            this.inventory.Controls.Add(this.edit);
+            this.inventory.Controls.Add(this.delete);
+            this.inventory.Controls.Add(this.add);
+            this.inventory.Controls.Add(this.open);
+            this.inventory.Controls.Add(this.suma);
+            this.inventory.Controls.Add(this.price);
+            this.inventory.Controls.Add(this.number);
+            this.inventory.Controls.Add(this.sumalabel);
+            this.inventory.Controls.Add(this.pricelabel);
+            this.inventory.Controls.Add(this.graduationyearlabel);
+            this.inventory.Controls.Add(this.graduationyear);
+            this.inventory.Controls.Add(this.dateofdeparture);
+            this.inventory.Controls.Add(this.dateofreceipt);
+            this.inventory.Controls.Add(this.nameofmaterialvalueslabel);
+            this.inventory.Controls.Add(this.nameofmaterialvalues);
+            this.inventory.Location = new System.Drawing.Point(583, 35);
+            this.inventory.Name = "panel2";
+            this.inventory.Size = new System.Drawing.Size(428, 296);
+            this.inventory.TabIndex = 3;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(135, 113);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown1.TabIndex = 6;
+            this.numberlabel.Location = new System.Drawing.Point(135, 113);
+            this.numberlabel.Name = "numericUpDown1";
+            this.numberlabel.Size = new System.Drawing.Size(91, 20);
+            this.numberlabel.TabIndex = 6;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(135, 63);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(91, 20);
-            this.dateTimePicker2.TabIndex = 30;
+            this.dateofdeparturelabel.Location = new System.Drawing.Point(135, 63);
+            this.dateofdeparturelabel.Name = "dateTimePicker2";
+            this.dateofdeparturelabel.Size = new System.Drawing.Size(91, 20);
+            this.dateofdeparturelabel.TabIndex = 30;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(135, 37);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(91, 20);
-            this.dateTimePicker1.TabIndex = 6;
+            this.dateofreceiptlabel.Location = new System.Drawing.Point(135, 37);
+            this.dateofreceiptlabel.Name = "dateTimePicker1";
+            this.dateofreceiptlabel.Size = new System.Drawing.Size(91, 20);
+            this.dateofreceiptlabel.TabIndex = 6;
             // 
             // comboBox1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.placeofstoragelabel.FormattingEnabled = true;
+            this.placeofstoragelabel.Items.AddRange(new object[] {
             "Склад 1",
             "Склад 2"});
-            this.comboBox1.Location = new System.Drawing.Point(135, 192);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(91, 21);
-            this.comboBox1.TabIndex = 6;
+            this.placeofstoragelabel.Location = new System.Drawing.Point(135, 192);
+            this.placeofstoragelabel.Name = "comboBox1";
+            this.placeofstoragelabel.Size = new System.Drawing.Size(91, 21);
+            this.placeofstoragelabel.TabIndex = 6;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 222);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(111, 13);
-            this.label9.TabIndex = 26;
-            this.label9.Text = "Відповідальна особа";
+            this.responsibleperson.AutoSize = true;
+            this.responsibleperson.Location = new System.Drawing.Point(13, 222);
+            this.responsibleperson.Name = "label9";
+            this.responsibleperson.Size = new System.Drawing.Size(111, 13);
+            this.responsibleperson.TabIndex = 26;
+            this.responsibleperson.Text = "Відповідальна особа";
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(135, 219);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(91, 20);
-            this.textBox9.TabIndex = 25;
+            this.person.Location = new System.Drawing.Point(135, 219);
+            this.person.Name = "textBox9";
+            this.person.Size = new System.Drawing.Size(91, 20);
+            this.person.TabIndex = 25;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 196);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 13);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Місце зберігання";
+            this.placeofstorage.AutoSize = true;
+            this.placeofstorage.Location = new System.Drawing.Point(13, 196);
+            this.placeofstorage.Name = "label1";
+            this.placeofstorage.Size = new System.Drawing.Size(94, 13);
+            this.placeofstorage.TabIndex = 24;
+            this.placeofstorage.Text = "Місце зберігання";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(135, 262);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(91, 23);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "Змінити";
-            this.button4.UseVisualStyleBackColor = true;
+            this.edit.Location = new System.Drawing.Point(135, 262);
+            this.edit.Name = "button4";
+            this.edit.Size = new System.Drawing.Size(91, 23);
+            this.edit.TabIndex = 22;
+            this.edit.Text = "Змінити";
+            this.edit.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(251, 262);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(91, 23);
-            this.button3.TabIndex = 21;
-            this.button3.Text = "Видалити";
-            this.button3.UseVisualStyleBackColor = true;
+            this.delete.Location = new System.Drawing.Point(251, 262);
+            this.delete.Name = "button3";
+            this.delete.Size = new System.Drawing.Size(91, 23);
+            this.delete.TabIndex = 21;
+            this.delete.Text = "Видалити";
+            this.delete.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(16, 262);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(91, 23);
-            this.button2.TabIndex = 20;
-            this.button2.Text = "Добавити";
-            this.button2.UseVisualStyleBackColor = true;
+            this.add.Location = new System.Drawing.Point(16, 262);
+            this.add.Name = "button2";
+            this.add.Size = new System.Drawing.Size(91, 23);
+            this.add.TabIndex = 20;
+            this.add.Text = "Добавити";
+            this.add.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(251, 217);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 23);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Відкрити";
-            this.button1.UseVisualStyleBackColor = true;
+            this.open.Location = new System.Drawing.Point(251, 217);
+            this.open.Name = "button1";
+            this.open.Size = new System.Drawing.Size(91, 23);
+            this.open.TabIndex = 19;
+            this.open.Text = "Відкрити";
+            this.open.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(13, 167);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(33, 13);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Сума";
+            this.suma.AutoSize = true;
+            this.suma.Location = new System.Drawing.Point(13, 167);
+            this.suma.Name = "label8";
+            this.suma.Size = new System.Drawing.Size(33, 13);
+            this.suma.TabIndex = 18;
+            this.suma.Text = "Сума";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(13, 141);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(29, 13);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Ціна";
+            this.price.AutoSize = true;
+            this.price.Location = new System.Drawing.Point(13, 141);
+            this.price.Name = "label7";
+            this.price.Size = new System.Drawing.Size(29, 13);
+            this.price.TabIndex = 17;
+            this.price.Text = "Ціна";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 115);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 13);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Кількість";
+            this.number.AutoSize = true;
+            this.number.Location = new System.Drawing.Point(13, 115);
+            this.number.Name = "label6";
+            this.number.Size = new System.Drawing.Size(53, 13);
+            this.number.TabIndex = 16;
+            this.number.Text = "Кількість";
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(135, 167);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(91, 20);
-            this.textBox7.TabIndex = 15;
+            this.sumalabel.Location = new System.Drawing.Point(135, 167);
+            this.sumalabel.Name = "textBox7";
+            this.sumalabel.Size = new System.Drawing.Size(91, 20);
+            this.sumalabel.TabIndex = 15;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(135, 141);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(91, 20);
-            this.textBox6.TabIndex = 14;
+            this.pricelabel.Location = new System.Drawing.Point(135, 141);
+            this.pricelabel.Name = "textBox6";
+            this.pricelabel.Size = new System.Drawing.Size(91, 20);
+            this.pricelabel.TabIndex = 14;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(135, 89);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(91, 20);
-            this.textBox4.TabIndex = 12;
+            this.graduationyearlabel.Location = new System.Drawing.Point(135, 89);
+            this.graduationyearlabel.Name = "textBox4";
+            this.graduationyearlabel.Size = new System.Drawing.Size(91, 20);
+            this.graduationyearlabel.TabIndex = 12;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 92);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Рік випуску";
+            this.graduationyear.AutoSize = true;
+            this.graduationyear.Location = new System.Drawing.Point(13, 92);
+            this.graduationyear.Name = "label5";
+            this.graduationyear.Size = new System.Drawing.Size(65, 13);
+            this.graduationyear.TabIndex = 11;
+            this.graduationyear.Text = "Рік випуску";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 66);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 13);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Дата вибуття";
+            this.dateofdeparture.AutoSize = true;
+            this.dateofdeparture.Location = new System.Drawing.Point(13, 66);
+            this.dateofdeparture.Name = "label4";
+            this.dateofdeparture.Size = new System.Drawing.Size(75, 13);
+            this.dateofdeparture.TabIndex = 9;
+            this.dateofdeparture.Text = "Дата вибуття";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Дата надходження";
+            this.dateofreceipt.AutoSize = true;
+            this.dateofreceipt.Location = new System.Drawing.Point(13, 37);
+            this.dateofreceipt.Name = "label3";
+            this.dateofreceipt.Size = new System.Drawing.Size(103, 13);
+            this.dateofreceipt.TabIndex = 7;
+            this.dateofreceipt.Text = "Дата надходження";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(135, 11);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(91, 20);
-            this.textBox1.TabIndex = 6;
+            this.nameofmaterialvalueslabel.Location = new System.Drawing.Point(135, 11);
+            this.nameofmaterialvalueslabel.Name = "textBox1";
+            this.nameofmaterialvalueslabel.Size = new System.Drawing.Size(91, 20);
+            this.nameofmaterialvalueslabel.TabIndex = 6;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 14);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Назва мат. цінностей";
+            this.nameofmaterialvalues.AutoSize = true;
+            this.nameofmaterialvalues.Location = new System.Drawing.Point(13, 14);
+            this.nameofmaterialvalues.Name = "label2";
+            this.nameofmaterialvalues.Size = new System.Drawing.Size(116, 13);
+            this.nameofmaterialvalues.TabIndex = 5;
+            this.nameofmaterialvalues.Text = "Назва мат. цінностей";
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.menu.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.файлToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(56, 24);
-            this.menuStrip1.TabIndex = 4;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menu.Dock = System.Windows.Forms.DockStyle.None;
+            this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.filemenu});
+            this.menu.Location = new System.Drawing.Point(0, 0);
+            this.menu.Name = "menuStrip1";
+            this.menu.Size = new System.Drawing.Size(56, 24);
+            this.menu.TabIndex = 4;
+            this.menu.Text = "menuStrip1";
             // 
             // файлToolStripMenuItem
             // 
-            this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.зберегтиToolStripMenuItem,
-            this.друкуватиToolStripMenuItem});
-            this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.файлToolStripMenuItem.Text = "Файл";
+            this.filemenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.save,
+            this.print});
+            this.filemenu.Name = "файлToolStripMenuItem";
+            this.filemenu.Size = new System.Drawing.Size(48, 20);
+            this.filemenu.Text = "Файл";
             // 
             // зберегтиToolStripMenuItem
             // 
-            this.зберегтиToolStripMenuItem.Name = "зберегтиToolStripMenuItem";
-            this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.зберегтиToolStripMenuItem.Text = "Зберегти";
+            this.save.Name = "зберегтиToolStripMenuItem";
+            this.save.Size = new System.Drawing.Size(131, 22);
+            this.save.Text = "Зберегти";
             // 
             // друкуватиToolStripMenuItem
             // 
-            this.друкуватиToolStripMenuItem.Name = "друкуватиToolStripMenuItem";
-            this.друкуватиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.друкуватиToolStripMenuItem.Text = "Друкувати";
+            this.print.Name = "друкуватиToolStripMenuItem";
+            this.print.Size = new System.Drawing.Size(131, 22);
+            this.print.Text = "Друкувати";
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.textBox10);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Location = new System.Drawing.Point(583, 337);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(428, 97);
-            this.panel1.TabIndex = 5;
+            this.searchbynamelabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.searchbynamelabel.Controls.Add(this.exit);
+            this.searchbynamelabel.Controls.Add(this.search);
+            this.searchbynamelabel.Controls.Add(this.name);
+            this.searchbynamelabel.Controls.Add(this.namelabel);
+            this.searchbynamelabel.Controls.Add(this.searchbyname);
+            this.searchbynamelabel.Location = new System.Drawing.Point(583, 337);
+            this.searchbynamelabel.Name = "panel1";
+            this.searchbynamelabel.Size = new System.Drawing.Size(428, 97);
+            this.searchbynamelabel.TabIndex = 5;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(293, 63);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(91, 23);
-            this.button6.TabIndex = 31;
-            this.button6.Text = "Вихід";
-            this.button6.UseVisualStyleBackColor = true;
+            this.exit.Location = new System.Drawing.Point(293, 63);
+            this.exit.Name = "button6";
+            this.exit.Size = new System.Drawing.Size(91, 23);
+            this.exit.TabIndex = 31;
+            this.exit.Text = "Вихід";
+            this.exit.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(293, 22);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(91, 23);
-            this.button5.TabIndex = 27;
-            this.button5.Text = "Пошук";
-            this.button5.UseVisualStyleBackColor = true;
+            this.search.Location = new System.Drawing.Point(293, 22);
+            this.search.Name = "button5";
+            this.search.Size = new System.Drawing.Size(91, 23);
+            this.search.TabIndex = 27;
+            this.search.Text = "Пошук";
+            this.search.UseVisualStyleBackColor = true;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(135, 24);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(138, 20);
-            this.textBox10.TabIndex = 27;
+            this.name.Location = new System.Drawing.Point(135, 24);
+            this.name.Name = "textBox10";
+            this.name.Size = new System.Drawing.Size(138, 20);
+            this.name.TabIndex = 27;
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(13, 27);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(116, 13);
-            this.label11.TabIndex = 28;
-            this.label11.Text = "Назва мат. цінностей";
+            this.namelabel.AutoSize = true;
+            this.namelabel.Location = new System.Drawing.Point(13, 27);
+            this.namelabel.Name = "label11";
+            this.namelabel.Size = new System.Drawing.Size(116, 13);
+            this.namelabel.TabIndex = 28;
+            this.namelabel.Text = "Назва мат. цінностей";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(13, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(84, 13);
-            this.label10.TabIndex = 27;
-            this.label10.Text = "Пошук по назві";
+            this.searchbyname.AutoSize = true;
+            this.searchbyname.Location = new System.Drawing.Point(13, 0);
+            this.searchbyname.Name = "label10";
+            this.searchbyname.Size = new System.Drawing.Size(84, 13);
+            this.searchbyname.TabIndex = 27;
+            this.searchbyname.Text = "Пошук по назві";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1034, 466);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.searchbynamelabel);
+            this.Controls.Add(this.statement);
+            this.Controls.Add(this.inventory);
+            this.Controls.Add(this.menu);
             this.Name = "Form1";
             this.Text = "Statement of material value";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.statement)).EndInit();
+            this.inventory.ResumeLayout(false);
+            this.inventory.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numberlabel)).EndInit();
+            this.menu.ResumeLayout(false);
+            this.menu.PerformLayout();
+            this.searchbynamelabel.ResumeLayout(false);
+            this.searchbynamelabel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem зберегтиToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem друкуватиToolStripMenuItem;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.DataGridView statement;
+        private System.Windows.Forms.Panel inventory;
+        private System.Windows.Forms.NumericUpDown numberlabel;
+        private System.Windows.Forms.DateTimePicker dateofdeparturelabel;
+        private System.Windows.Forms.DateTimePicker dateofreceiptlabel;
+        private System.Windows.Forms.ComboBox placeofstoragelabel;
+        private System.Windows.Forms.Label responsibleperson;
+        private System.Windows.Forms.TextBox person;
+        private System.Windows.Forms.Label placeofstorage;
+        private System.Windows.Forms.Button edit;
+        private System.Windows.Forms.Button delete;
+        private System.Windows.Forms.Button add;
+        private System.Windows.Forms.Button open;
+        private System.Windows.Forms.Label suma;
+        private System.Windows.Forms.Label price;
+        private System.Windows.Forms.Label number;
+        private System.Windows.Forms.TextBox sumalabel;
+        private System.Windows.Forms.TextBox pricelabel;
+        private System.Windows.Forms.TextBox graduationyearlabel;
+        private System.Windows.Forms.Label graduationyear;
+        private System.Windows.Forms.Label dateofdeparture;
+        private System.Windows.Forms.Label dateofreceipt;
+        private System.Windows.Forms.TextBox nameofmaterialvalueslabel;
+        private System.Windows.Forms.Label nameofmaterialvalues;
+        private System.Windows.Forms.MenuStrip menu;
+        private System.Windows.Forms.ToolStripMenuItem filemenu;
+        private System.Windows.Forms.ToolStripMenuItem save;
+        private System.Windows.Forms.ToolStripMenuItem print;
+        private System.Windows.Forms.Panel searchbynamelabel;
+        private System.Windows.Forms.Button search;
+        private System.Windows.Forms.TextBox name;
+        private System.Windows.Forms.Label namelabel;
+        private System.Windows.Forms.Label searchbyname;
+        private System.Windows.Forms.Button exit;
     }
 }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace oblik
 {
-    public partial class Form1 : Form
+    public partial class Statementofmaterialvalue : Form
     {
-        public Form1()
+        public Statementofmaterialvalue()
         {
             InitializeComponent();
         }
