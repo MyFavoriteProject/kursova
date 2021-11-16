@@ -1,0 +1,11 @@
+D:\kursova\oblik\oblik\obj\Debug\oblik.csproj.AssemblyReference.cache
+D:\kursova\oblik\oblik\obj\Debug\oblik.csproj.SuggestedBindingRedirects.cache
+D:\kursova\oblik\oblik\obj\Debug\oblik.Form1.resources
+D:\kursova\oblik\oblik\obj\Debug\oblik.Properties.Resources.resources
+D:\kursova\oblik\oblik\obj\Debug\oblik.csproj.GenerateResource.cache
+D:\kursova\oblik\oblik\obj\Debug\oblik.csproj.CoreCompileInputs.cache
+D:\kursova\oblik\oblik\bin\Debug\oblik.exe.config
+D:\kursova\oblik\oblik\bin\Debug\oblik.exe
+D:\kursova\oblik\oblik\bin\Debug\oblik.pdb
+D:\kursova\oblik\oblik\obj\Debug\oblik.exe
+D:\kursova\oblik\oblik\obj\Debug\oblik.pdb
