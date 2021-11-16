@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "eea154f8-080d-4da8-a72d-47df8ddccffa": {
+      "ProjectGuid": "eea154f8-080d-4da8-a72d-47df8ddccffa",
+      "DisplayName": "oblik",
+      "ColorIndex": 0
+    },
+    "2fe18a97-f5c6-46f4-850b-4a98d8b61df4": {
+      "ProjectGuid": "2fe18a97-f5c6-46f4-850b-4a98d8b61df4",
+      "DisplayName": "oblik.BL",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

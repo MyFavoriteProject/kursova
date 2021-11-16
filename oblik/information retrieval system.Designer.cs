@@ -319,13 +319,13 @@
             // зберегтиToolStripMenuItem
             // 
             this.зберегтиToolStripMenuItem.Name = "зберегтиToolStripMenuItem";
-            this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.зберегтиToolStripMenuItem.Text = "Зберегти";
             // 
             // друкуватиToolStripMenuItem
             // 
             this.друкуватиToolStripMenuItem.Name = "друкуватиToolStripMenuItem";
-            this.друкуватиToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.друкуватиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.друкуватиToolStripMenuItem.Text = "Друкувати";
             // 
             // panel1
@@ -394,7 +394,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form1";
-            this.Text = "Інформаційно-пошукова система";
+            this.Text = "Statement of material value";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
