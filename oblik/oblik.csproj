@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\oblik.Domain\oblik.Domain.csproj">
+      <Project>{124751b9-bdc6-4c17-8a49-d99f407cee11}</Project>
+      <Name>oblik.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

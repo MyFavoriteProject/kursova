@@ -1,0 +1,5 @@
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\bin\Debug\oblik.Domain.dll
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\bin\Debug\oblik.Domain.pdb
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\obj\Debug\oblik.Domain.csproj.CoreCompileInputs.cache
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\obj\Debug\oblik.Domain.dll
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\obj\Debug\oblik.Domain.pdb
