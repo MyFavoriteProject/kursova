@@ -12,8 +12,6 @@ D:\kursova\oblik\oblik\obj\Debug\oblik.pdb
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\bin\Debug\oblik.exe.config
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\bin\Debug\oblik.exe
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\bin\Debug\oblik.pdb
-C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\bin\Debug\oblik.Domain.dll
-C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\bin\Debug\oblik.Domain.pdb
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\obj\Debug\oblik.csprojAssemblyReference.cache
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\obj\Debug\oblik.Statementofmaterialvalue.resources
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\obj\Debug\oblik.Properties.Resources.resources
@@ -22,3 +20,8 @@ C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\obj\Debug\oblik.csproj
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\obj\Debug\oblik.csproj.CopyComplete
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\obj\Debug\oblik.exe
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\obj\Debug\oblik.pdb
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\bin\Debug\EntityFramework.dll
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\bin\Debug\EntityFramework.xml
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik\obj\Debug\oblik.Migrations.AddOblikMigration.resources

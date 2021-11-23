@@ -3,3 +3,10 @@ C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\bin\Debug\oblik
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\obj\Debug\oblik.Domain.csproj.CoreCompileInputs.cache
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\obj\Debug\oblik.Domain.dll
 C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\obj\Debug\oblik.Domain.pdb
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\obj\Debug\oblik.Domain.csprojAssemblyReference.cache
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\bin\Debug\oblik.Domain.dll.config
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\bin\Debug\EntityFramework.dll
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\bin\Debug\EntityFramework.xml
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\home\source\repos\WinFormKoursWork\kursova\oblik.Domain\obj\Debug\oblik.Domain.csproj.CopyComplete
